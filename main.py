@@ -1,4 +1,3 @@
-
 from my_package import calculator,greeter
 print(greeter.say_hello("Rahul"))
 
