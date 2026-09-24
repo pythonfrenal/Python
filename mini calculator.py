@@ -19,8 +19,8 @@ def calculator():
         else:
             raise ValueError("Invalid operator!")
 
-    except ValueError as e:
-        print("Error:", e)
+    except ValueError :
+        print("Error:")
 
     except ZeroDivisionError:
         print("Error: Division by zero not allowed!")
